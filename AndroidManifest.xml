@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    android:installLocation="auto"
+    android:compileSdkVersion="23"
+    android:compileSdkVersionCodename="6.0-2438415"
+    package="adi.V7EXAM_MTsN_2_Kotawaringin_Timur"
+    platformBuildVersionCode="23"
+    platformBuildVersionName="6.0-2438415"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <queries>
+        <intent>
+            <action
+                android:name="com.google.zxing.client.android.SCAN" />
+        </intent>
+    </queries>
+    <uses-permission
+        android:name="android.permission.ACTION_MANAGE_OVERLAY_PERMISSION" />
+    <!-- Izinkan apl untuk unduh berkas tanpa perlu menampilkan notifikasi ke pengguna. -->
+    <uses-permission
+        android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <!-- Mengizinkan aplikasi melihat semua paket yang diinstal. -->
+    <uses-permission
+        android:name="android.permission.QUERY_ALL_PACKAGES" />
+    <uses-permission
+        android:name="android.launcher.permission.INSTALL_SHORTCUT" />
+    <!-- Mengizinkan aplikasi untuk mengendalikan vibrator. -->
+    <uses-permission
+        android:name="android.permission.VIBRATE" />
+    <!-- Aplikasi ini dapat muncul di atas aplikasi lain atau bagian lain pada layar. Ini dapat mengganggu penggunaan aplikasi biasa dan mengubah kemunculan aplikasi lainnya. -->
+    <uses-permission
+        android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <!-- Aplikasi ini dapat merekam audio menggunakan mikrofon saat aplikasi sedang digunakan. -->
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO" />
+    <!-- Mengizinkan aplikasi menulis konten penyimpanan bersama Anda. -->
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="29" />
+    <uses-permission
+        android:name="android.webkit.resource.VIDEO_CAPTURE" />
+    <!-- Aplikasi ini bisa mendapatkan lokasi pasti Anda dari layanan lokasi saat aplikasi sedang digunakan. Layanan lokasi untuk perangkat harus diaktifkan agar aplikasi bisa mendapatkan lokasi. Ini dapat meningkatkan penggunaan baterai. -->
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission
+        android:name="android.webkit.resource.AUDIO_CAPTURE" />
+    <!-- Mengizinkan aplikasi membaca dan menulis konfigurasi status Jangan Ganggu. -->
+    <uses-permission
+        android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <!-- Aplikasi ini bisa mendapatkan perkiraan lokasi Anda dari layanan lokasi saat aplikasi sedang digunakan. Layanan lokasi untuk perangkat harus diaktifkan agar aplikasi bisa mendapatkan lokasi. -->
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- Memungkinkan aplikasi membuat soket jaringan dan menggunakan protokol jaringan khusus. Browser dan aplikasi lain menyediakan sarana untuk mengirim data ke internet sehingga izin ini tidak diperlukan untuk mengirim data ke internet. -->
+    <uses-permission
+        android:name="android.permission.INTERNET" />
+    <!-- Memungkinkan aplikasi melihat informasi tentang koneksi jaringan, misalnya jaringan yang ada dan tersambung. -->
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- Memungkinkan aplikasi melihat informasi tentang jaringan Wi-Fi, misalnya apakah Wi-Fi diaktifkan dan nama perangkat Wi-Fi yang tersambung. -->
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- Aplikasi ini dapat mengambil gambar dan merekam video menggunakan kamera saat aplikasi sedang digunakan. -->
+    <uses-permission
+        android:name="android.permission.CAMERA" />
+    <!-- Memungkinkan aplikasi mengubah setelan audio global, misalnya volume dan pengeras suara mana yang digunakan untuk keluaran. -->
+    <uses-permission
+        android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <!-- Mengizinkan aplikasi membaca konten penyimpanan bersama Anda. -->
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- Memungkinkan aplikasi mengakses fitur telepon perangkat. Izin ini memungkinkan aplikasi menentukan nomor telepon dan ID perangkat, apakah suatu panggilan aktif atau tidak, dan nomor jarak jauh yang tersambung oleh sebuah panggilan. -->
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission
+        android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <!-- Mengizinkan apl memodifikasi data setelan sistem. Apl berbahaya dapat merusak konfigurasi sistem anda. -->
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS" />
+    <!-- Izinkan apl akses apl Unduhan dan menggunakannya untuk mengunduh berkas. Apl berbahaya dapat menggunakan ini untuk mengganggu pengunduhan dan akses info pribadi. -->
+    <uses-permission
+        android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <application
+        android:theme="@style/AppTheme"
+        android:label="EXAM MTsn 1 Kotawaringin Timur"
+        android:icon="@mipmap/ic_launcher"
+        android:name="com.google.appinventor.components.runtime.multidex.MultiDexApplication"
+        android:debuggable="false"
+        android:supportsRtl="false"
+        android:usesCleartextTraffic="true"
+        android:resizeableActivity="false"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:requestLegacyExternalStorage="true"
+        android:preserveLegacyExternalStorage="true">
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name="adi.V7EXAM_MTsN_2_Kotawaringin_Timur.DOWNLOADTOOLS"
+            android:exported="true"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name="adi.V7EXAM_MTsN_2_Kotawaringin_Timur.qrscreenbackup"
+            android:exported="true"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name="io.kodular.muhammad_robi1996.V7EXAM_MTsn_1_Kotawaringin_Timur.Screen2Backup"
+            android:exported="true"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name="io.kodular.muhammad_robi1996.V7EXAM_MTsn_1_Kotawaringin_Timur.SMART"
+            android:exported="true"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name="io.kodular.muhammad_robi1996.V7EXAM_MTsn_1_Kotawaringin_Timur.download"
+            android:exported="true"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name="io.kodular.muhammad_robi1996.V7EXAM_MTsn_1_Kotawaringin_Timur.PERPUSTAKAAN"
+            android:exported="true"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name="io.kodular.muhammad_robi1996.V7EXAM_MTsn_1_Kotawaringin_Timur.Screen2"
+            android:exported="true"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name="adi.V7EXAM_MTsN_2_Kotawaringin_Timur.website"
+            android:exported="true"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name="io.kodular.muhammad_robi1996.V7EXAM_MTsn_1_Kotawaringin_Timur.pengaturan_awal"
+            android:exported="true"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name="io.kodular.muhammad_robi1996.V7EXAM_MTsn_1_Kotawaringin_Timur.ScreenHomeBackup"
+            android:exported="true"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name="io.kodular.muhammad_robi1996.V7EXAM_MTsn_1_Kotawaringin_Timur.Developer"
+            android:exported="true"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name="io.kodular.muhammad_robi1996.V7EXAM_MTsn_1_Kotawaringin_Timur.BANTUAN"
+            android:exported="true"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name="io.kodular.muhammad_robi1996.V7EXAM_MTsn_1_Kotawaringin_Timur.ScreenOneBackup"
+            android:exported="true"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name="io.kodular.muhammad_robi1996.V7EXAM_MTsn_1_Kotawaringin_Timur.WEB"
+            android:exported="true"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name="io.kodular.muhammad_robi1996.V7EXAM_MTsn_1_Kotawaringin_Timur.PPDBNEW2"
+            android:exported="true"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name="io.kodular.muhammad_robi1996.V7EXAM_MTsn_1_Kotawaringin_Timur.TERM"
+            android:exported="true"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name="adi.V7EXAM_MTsN_2_Kotawaringin_Timur.qrscreen"
+            android:exported="true"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name="io.kodular.muhammad_robi1996.V7EXAM_MTsn_1_Kotawaringin_Timur.Screen1"
+            android:exported="true"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name="io.kodular.muhammad_robi1996.V7EXAM_MTsn_1_Kotawaringin_Timur.CBT"
+            android:exported="true"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name="io.kodular.muhammad_robi1996.V7EXAM_MTsn_1_Kotawaringin_Timur.HOME"
+            android:exported="true"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name="io.kodular.muhammad_robi1996.V7EXAM_MTsn_1_Kotawaringin_Timur.Aboutapp"
+            android:exported="true"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name="io.kodular.muhammad_robi1996.V7EXAM_MTsn_1_Kotawaringin_Timur.WARNING"
+            android:exported="true"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="io.kodular.app.VERSION"
+            android:value="1.5B.3-Fenix" />
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:name="com.google.zxing.client.android.AppInvCaptureActivity"
+            android:exported="true"
+            android:stateNotNeeded="true"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:exported="false"
+            android:authorities="com.exambro.MTsN1KotawaringinTimur.provider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+</manifest>

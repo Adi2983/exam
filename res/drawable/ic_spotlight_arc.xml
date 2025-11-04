@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    android:height="100.0dip"
+    android:width="100.0dip"
+    android:viewportWidth="100.0"
+    android:viewportHeight="100.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <path
+        android:name="curve_left_atrium"
+        android:pathData="M4,48C4,22.6,24.6,2,50,2"
+        android:strokeColor="#ffeb273f"
+        android:strokeWidth="4.0"
+        android:trimPathEnd="0.0" />
+    <path
+        android:name="curve_right_atrium"
+        android:pathData="M96,48C96,22.6,75.4,2,50,2"
+        android:strokeColor="#ffeb273f"
+        android:strokeWidth="4.0"
+        android:trimPathEnd="0.0" />
+</vector>

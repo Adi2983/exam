@@ -1,0 +1,32 @@
+{
+  "apkFileName": "V7EXAM_MTsn_1_Kotawaringin_Timur(2)_src.apk",
+  "PackageInfo": {
+    "forcedPackageId": "127",
+    "renameManifestPackage": null
+  },
+  "doNotCompress": [
+    "resources.arsc",
+    "png",
+    "mp3"
+  ],
+  "compressionType": false,
+  "sparseResources": false,
+  "version": "2.4.0-251021",
+  "sharedLibrary": false,
+  "VersionInfo": {
+    "versionName": "v7.5-rdeveloper",
+    "versionCode": "1"
+  },
+  "UsesFramework": {
+    "ids": [1],
+    "tag": null
+  },
+  "unknownFiles": {},
+  "apkFilePath": "/storage/emulated/0/Download/New Folder/V7EXAM_MTsn_1_Kotawaringin_Timur(2).apk",
+  "compactEntries": false,
+  "isFrameworkApk": false,
+  "sdkInfo": {
+    "minSdkVersion": "23",
+    "targetSdkVersion": "31"
+  }
+}
