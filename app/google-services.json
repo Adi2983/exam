@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "580543658485",
+    "project_id": "adimtsn2kotim",
+    "storage_bucket": "adimtsn2kotim.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:580543658485:android:4378bc218b1756742748bc",
+        "android_client_info": {
+          "package_name": "adi.V7EXAM_MTsN_2_Kotawaringin_Timur"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDmUIDW3wLeT2Mq2Bli0VFlQxr1FLyC2I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

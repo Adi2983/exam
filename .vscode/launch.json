@@ -1,0 +1,47 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "projectName": "${workspaceFolder}"
+        },
+        {
+            "type": "java",
+            "name": "Debug Android App",
+            "request": "launch",
+            "mainClass": "${workspaceFolder}/app/src/main/java/adi/V7EXAM_MTsN_2_Kotawaringin_Timur/MainActivity.java",
+            "projectName": "${workspaceFolder}",
+            "android": true
+        },
+        {
+            "type": "java",
+            "name": "Debug Firebase Functions",
+            "request": "launch",
+            "mainClass": "com.google.firebase.functions.FirebaseFunctions",
+            "projectName": "${workspaceFolder}",
+            "classpath": [
+                "${workspaceFolder}/app/build/intermediates/javac/debug/classes",
+                "${workspaceFolder}/app/build/tmp/kotlin-classes/debug"
+            ]
+        },
+        {
+            "name": "Attach to Android Process",
+            "type": "android",
+            "request": "attach",
+            "processId": "${command:pickAndroidProcess}"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Android Debug",
+            "configurations": ["Debug Android App", "Attach to Android Process"]
+        },
+        {
+            "name": "Full Debug",
+            "configurations": ["Debug Android App", "Debug Firebase Functions"]
+        }
+    ]
+}

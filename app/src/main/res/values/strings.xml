@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">V7 EXAM MTsN 2 Kotawaringin Timur</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="dont_have_account">Don\'t have an account? </string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login_success">Login successful!</string>
+    <string name="login_failed">Login failed: %1$s</string>
+    <string name="logout">Logout</string>
+    <string name="welcome">Welcome</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_email">Please enter a valid email address</string>
+    <string name="error_invalid_password">Password must be at least 6 characters</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="reset_password_instructions">Enter your email and we\'ll send you a link to reset your password</string>
+    <string name="send_reset_link">Send Reset Link</string>
+    <string name="reset_link_sent">Password reset link sent to your email</string>
+    <string name="error_sending_reset_email">Failed to send reset email: %1$s</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="loading">Loading…</string>
+</resources>
